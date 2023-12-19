@@ -4,7 +4,7 @@
       "HUGO_VERSION": "0.120.4"
     }
   },
-  "rewrites": [
+  "redirect": [
     {
       "source": "/:path*",
       "destination": "https://blog.auch.cool/:path*"
