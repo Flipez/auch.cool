@@ -3,6 +3,12 @@
     "env": {
       "HUGO_VERSION": "0.120.4"
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "https://blog.auch.cool/:path*"
+    }
+  ]
 }
 
