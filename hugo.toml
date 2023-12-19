@@ -27,6 +27,13 @@ useBootstrapCDN = false
 mathjax = false
 animate = true
 
+  [params.color]
+  primaryColor = "#303030"
+
+  [params.color.darkmode]
+  primaryColor = "#55ACEE"
+  backgroundColor = "#303030"
+
   [params.font]
   fontSize = "1rem"
   fontWeight = 400
@@ -55,7 +62,13 @@ animate = true
   intro = "Hi, my name is"
   title = "Robert."
   subtitle = "Sometimes I do stuff"
-  content = "Worked with a lot of servers in a hosting company, acted as GitLab Magican & Meme Integrator, tinkering on stuff that runs the internet now. Has both a stupid and pragmatic solution for every problem and likes them to be scaleable and generalized. Lost his heart to Ruby, likes photography, mountain biking and movies."
+  content = """
+  I am tinkering on stuff that runs the internet over at <a href=\"mozilla.org\">Mozilla</a>.
+  </br></br>Previously I broke things in parallel on a lot of servers in a <a href=\"hetzner.com\">hosting company</a>.
+  I have both unconventional and practical solutions for every challenge, with a preference for scalability and general applicability.
+  I do temporary things that live forever occasionally too.
+  </br></br>Lost my heart to Ruby, love photography, mountain biking and "catching the latest flicks" - as the cool kids say across the pond.
+  """
   image = "/img/robert.jpg"
 
     [params.hero.bottomImage]
