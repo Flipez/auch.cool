@@ -19,6 +19,13 @@ title = "Blog posts"
 url = "https://blog.auch.cool"
 weight = 1
 
+[[Menus.main]]
+identifier = "photos"
+name = "Photos"
+title = "Photostream"
+url = "https://photos.auch.cool"
+weight = 2
+
 [params]
 title = "/home/robert"
 description = "Text about my cool site"
@@ -68,7 +75,8 @@ animate = true
   I have both unconventional and practical solutions for every challenge, with a preference for scalability and general applicability.
   I do temporary things that live forever occasionally too.
   </br></br>Lost my heart to Ruby, love photography, mountain biking and "catching the latest flicks" - as the cool kids say across the pond.
-  </br></br>You can find me on <a href=\"\">GitHub</a>, <a href=\"\">LinkedIn</a>, <a href=\"\">Instagram</a>, <a href=\"\">flickr</a> and <a href=\"\">Letterboxd</a>
+  </br></br>Find me on <a href=\"https://github.com/flipez\">GitHub</a>, <a href=\"https://www.linkedin.com/in/mueller-r/\">LinkedIn</a>, <a href=\"https://letterboxd.com/Flipez/\">Letterboxd</a>
+  and my photos <a href=\"https://photos.auch.cool\">self-hosted</a> and on <a href=\"https://www.instagram.com/rueller.mobert\">Instagram</a>
   """
   image = "/img/robert.jpg"
 
@@ -81,26 +89,6 @@ animate = true
     url = "https://read.cv/rm"
     download = false
     newPage = true
-
-[[params.hero.socialLinks.fontAwesomeIcons]]
-icon = "fab fa-github"
-url = "https://github.com/flipez"
-
-[[params.hero.socialLinks.fontAwesomeIcons]]
-icon = "fab fa-linkedin"
-url = "https://github.com/flipez"
-
-[[params.hero.socialLinks.fontAwesomeIcons]]
-icon = "fab fa-instagram"
-url = "https://github.com/flipez"
-
-[[params.hero.socialLinks.fontAwesomeIcons]]
-icon = "fab fa-flickr"
-url = "https://github.com/flipez"
-
-[[params.hero.socialLinks.fontAwesomeIcons]]
-icon = "fab fa-letterboxd"
-url = "https://gitlab.com/flipez"
 
   [params.about]
   enable = false
