@@ -70,8 +70,8 @@ animate = true
   title = "Robert."
   subtitle = "Sometimes I do stuff"
   content = """
-  I am tinkering on stuff that runs the internet over at <a href=\"mozilla.org\">Mozilla</a>.
-  </br></br>Previously I broke things in parallel on a lot of servers in a <a href=\"hetzner.com\">hosting company</a>.
+  I am tinkering on stuff that runs the internet over at <a href=\"https://mozilla.org\">Mozilla</a>.
+  </br></br>Previously I broke things in parallel on a lot of servers in a <a href=\"https://hetzner.com\">hosting company</a>.
   I have both unconventional and practical solutions for every challenge, with a preference for scalability and general applicability.
   I do temporary things that live forever occasionally too.
   </br></br>Lost my heart to Ruby, love photography, mountain biking and "catching the latest flicks" - as the cool kids say across the pond.
